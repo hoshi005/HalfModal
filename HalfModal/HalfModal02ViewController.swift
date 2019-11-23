@@ -20,11 +20,6 @@ class HalfModal02ViewController: UIViewController {
         
         let layer = self.view.layer
         layer.cornerRadius = 36.0
-//        layer.masksToBounds = false
-//        layer.shadowRadius = 4.0
-//        layer.shadowOffset = .zero
-//        layer.shadowOpacity = 0.6
-//        layer.shadowColor = UIColor.black.cgColor
     }
     
     @IBAction func tap(_ sender: AnyObject) {
@@ -53,11 +48,15 @@ class HalfModal02PresentationController: UIPresentationController {
     
     /// 表示されるViewControllerのサイズを決める.
     override var frameOfPresentedViewInContainerView: CGRect {
-        CGRect(
+        
+        // 親ビューのbounds.
+        guard let bounds = containerView?.bounds else { return .zero }
+        
+        return CGRect(
             x: margin,
-            y: (containerView?.bounds.height ?? 100) / 2 - margin,
-            width: (containerView?.bounds.width ?? 100) - margin * 2,
-            height: (containerView?.bounds.height ?? 100) / 2
+            y: bounds.height / 2 - margin,
+            width: bounds.width - margin * 2,
+            height: bounds.height / 2
         )
     }
     

@@ -42,11 +42,15 @@ class HalfModal01PresentationController: UIPresentationController {
     
     /// 表示されるViewControllerのサイズを決める.
     override var frameOfPresentedViewInContainerView: CGRect {
-        CGRect(
+        
+        // 親ビューのbounds.
+        guard let bounds = containerView?.bounds else { return .zero }
+        
+        return CGRect(
             x: 0,
-            y: (containerView?.bounds.height ?? 100) / 2,
-            width: containerView?.bounds.width ?? 100,
-            height: (containerView?.bounds.height ?? 100) / 2
+            y: bounds.height / 2,
+            width: bounds.width,
+            height: bounds.height / 2
         )
     }
     
