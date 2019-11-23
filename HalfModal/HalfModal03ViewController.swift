@@ -14,7 +14,7 @@ class HalfModal03ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-                
+        
         // ナビゲーションバーの上部２箇所を角丸.
         if let navigationBar = self.navigationController?.navigationBar {
             navigationBar.layer.cornerRadius = CORNER_RADIUS
@@ -61,6 +61,10 @@ class HalfModal03ViewController: UITableViewController {
     // MARK: - UITableViewControllerDelegate.
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
+        
+        // とりあえず、同じ画面を繰り返し表示する.
+        if let vc = storyboard?.instantiateViewController(identifier: "HalfModal03ViewController") {
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }
