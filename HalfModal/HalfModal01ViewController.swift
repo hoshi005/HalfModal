@@ -34,6 +34,7 @@ extension HalfModal01ViewController: UIViewControllerTransitioningDelegate {
     }
 }
 
+// MARK: -
 
 /// UIPresentationControllerのサブクラスを定義する.
 ///

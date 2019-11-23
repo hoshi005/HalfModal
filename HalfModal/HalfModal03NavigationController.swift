@@ -51,9 +51,9 @@ class HalfModal03PresentationController: UIPresentationController {
         
         return CGRect(
             x: margin,
-            y: bounds.height * 0.2,
+            y: bounds.height * 0.2, // 上から20%くらいの位置に表示.
             width: bounds.width - margin * 2,
-            height: bounds.height * 0.6
+            height: bounds.height * 0.6 // 親の60%くらいの大きさに.
         )
     }
     
