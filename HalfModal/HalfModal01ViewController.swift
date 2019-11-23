@@ -1,5 +1,5 @@
 //
-//  HalfModalViewController.swift
+//  HalfModal01ViewController.swift
 //  HalfModal
 //
 //  Created by shoshikawa on 2019/11/22.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HalfModalViewController: UIViewController {
+class HalfModal01ViewController: UIViewController {
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -27,10 +27,10 @@ class HalfModalViewController: UIViewController {
 }
 
 /// カスタムトランジションを定義するdelegate.
-extension HalfModalViewController: UIViewControllerTransitioningDelegate {
+extension HalfModal01ViewController: UIViewControllerTransitioningDelegate {
     
     func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
-        return HalfModalPresentationController(presentedViewController: presented, presenting: presenting)
+        return HalfModal01PresentationController(presentedViewController: presented, presenting: presenting)
     }
 }
 
@@ -38,7 +38,7 @@ extension HalfModalViewController: UIViewControllerTransitioningDelegate {
 /// UIPresentationControllerのサブクラスを定義する.
 ///
 /// UIPresentationControllerは「ViewControllerをどのように表示するか？」を定義するクラス.
-class HalfModalPresentationController: UIPresentationController {
+class HalfModal01PresentationController: UIPresentationController {
     
     /// 表示されるViewControllerのサイズを決める.
     override var frameOfPresentedViewInContainerView: CGRect {

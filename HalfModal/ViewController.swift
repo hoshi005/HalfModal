@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tap01(_ sender: AnyObject) {
-        if let vc = storyboard?.instantiateViewController(identifier: "HalfModalViewController") {
+        if let vc = storyboard?.instantiateViewController(identifier: "HalfModal01ViewController") {
             vc.modalPresentationStyle = .custom
             self.present(vc, animated: true) {
                 print("presented !!")
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tap02(_ sender: AnyObject) {
-        if let vc = storyboard?.instantiateViewController(identifier: "HalfModalOnShadowViewController") {
+        if let vc = storyboard?.instantiateViewController(identifier: "HalfModal02ViewController") {
             vc.modalPresentationStyle = .custom
             self.present(vc, animated: true) {
                 print("presented !!")
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tap03(_ sender: AnyObject) {
-        if let vc = storyboard?.instantiateViewController(identifier: "HalfModalViewController") {
+        if let vc = storyboard?.instantiateViewController(identifier: "HalfModal03ViewController") {
             vc.modalPresentationStyle = .custom
             self.present(vc, animated: true) {
                 print("presented !!")

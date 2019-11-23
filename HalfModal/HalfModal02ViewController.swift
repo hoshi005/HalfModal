@@ -1,5 +1,5 @@
 //
-//  HalfModalOnShadowViewController.swift
+//  HalfModal02ViewController.swift
 //  HalfModal
 //
 //  Created by shoshikawa on 2019/11/22.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HalfModalOnShadowViewController: UIViewController {
+class HalfModal02ViewController: UIViewController {
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -35,10 +35,10 @@ class HalfModalOnShadowViewController: UIViewController {
 }
 
 /// カスタムトランジションを定義するdelegate.
-extension HalfModalOnShadowViewController: UIViewControllerTransitioningDelegate {
+extension HalfModal02ViewController: UIViewControllerTransitioningDelegate {
     
     func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
-        return HalfModalOnShadowPresentationController(presentedViewController: presented, presenting: presenting)
+        return HalfModal02PresentationController(presentedViewController: presented, presenting: presenting)
     }
 }
 
@@ -46,7 +46,7 @@ extension HalfModalOnShadowViewController: UIViewControllerTransitioningDelegate
 /// UIPresentationControllerのサブクラスを定義する.
 ///
 /// UIPresentationControllerは「ViewControllerをどのように表示するか？」を定義するクラス.
-class HalfModalOnShadowPresentationController: UIPresentationController {
+class HalfModal02PresentationController: UIPresentationController {
 
     private let margin: CGFloat = 6.0
     private let overlayView = UIView()

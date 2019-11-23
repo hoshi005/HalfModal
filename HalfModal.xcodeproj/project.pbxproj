@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		378A17AB2387A628002BEDD5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 378A17AA2387A628002BEDD5 /* README.md */; };
-		378A17AD2387B13C002BEDD5 /* HalfModalOnShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A17AC2387B13C002BEDD5 /* HalfModalOnShadowViewController.swift */; };
+		378A17AD2387B13C002BEDD5 /* HalfModal02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A17AC2387B13C002BEDD5 /* HalfModal02ViewController.swift */; };
 		3797FA632387674300F3EFFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3797FA622387674300F3EFFE /* AppDelegate.swift */; };
 		3797FA652387674300F3EFFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3797FA642387674300F3EFFE /* SceneDelegate.swift */; };
 		3797FA672387674300F3EFFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3797FA662387674300F3EFFE /* ViewController.swift */; };
 		3797FA6A2387674300F3EFFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3797FA682387674300F3EFFE /* Main.storyboard */; };
 		3797FA6C2387674400F3EFFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3797FA6B2387674400F3EFFE /* Assets.xcassets */; };
 		3797FA6F2387674400F3EFFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3797FA6D2387674400F3EFFE /* LaunchScreen.storyboard */; };
-		3797FA772387680800F3EFFE /* HalfModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3797FA762387680800F3EFFE /* HalfModalViewController.swift */; };
+		3797FA772387680800F3EFFE /* HalfModal01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3797FA762387680800F3EFFE /* HalfModal01ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		378A17AA2387A628002BEDD5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		378A17AC2387B13C002BEDD5 /* HalfModalOnShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalOnShadowViewController.swift; sourceTree = "<group>"; };
+		378A17AC2387B13C002BEDD5 /* HalfModal02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModal02ViewController.swift; sourceTree = "<group>"; };
 		3797FA5F2387674300F3EFFE /* HalfModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalfModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3797FA622387674300F3EFFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3797FA642387674300F3EFFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +29,7 @@
 		3797FA6B2387674400F3EFFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3797FA6E2387674400F3EFFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3797FA702387674400F3EFFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3797FA762387680800F3EFFE /* HalfModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalViewController.swift; sourceTree = "<group>"; };
+		3797FA762387680800F3EFFE /* HalfModal01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModal01ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,8 @@
 				3797FA622387674300F3EFFE /* AppDelegate.swift */,
 				3797FA642387674300F3EFFE /* SceneDelegate.swift */,
 				3797FA662387674300F3EFFE /* ViewController.swift */,
-				3797FA762387680800F3EFFE /* HalfModalViewController.swift */,
-				378A17AC2387B13C002BEDD5 /* HalfModalOnShadowViewController.swift */,
+				3797FA762387680800F3EFFE /* HalfModal01ViewController.swift */,
+				378A17AC2387B13C002BEDD5 /* HalfModal02ViewController.swift */,
 				3797FA682387674300F3EFFE /* Main.storyboard */,
 				3797FA6B2387674400F3EFFE /* Assets.xcassets */,
 				3797FA6D2387674400F3EFFE /* LaunchScreen.storyboard */,
@@ -149,10 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3797FA672387674300F3EFFE /* ViewController.swift in Sources */,
-				378A17AD2387B13C002BEDD5 /* HalfModalOnShadowViewController.swift in Sources */,
+				378A17AD2387B13C002BEDD5 /* HalfModal02ViewController.swift in Sources */,
 				3797FA632387674300F3EFFE /* AppDelegate.swift in Sources */,
 				3797FA652387674300F3EFFE /* SceneDelegate.swift in Sources */,
-				3797FA772387680800F3EFFE /* HalfModalViewController.swift in Sources */,
+				3797FA772387680800F3EFFE /* HalfModal01ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

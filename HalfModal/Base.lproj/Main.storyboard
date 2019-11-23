@@ -97,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="127.90178571428571"/>
         </scene>
-        <!--Half Modal View Controller-->
+        <!--Half Modal01 View Controller-->
         <scene sceneID="oXu-yT-dAy">
             <objects>
-                <viewController storyboardIdentifier="HalfModalViewController" id="0mz-fc-wvV" customClass="HalfModalViewController" customModule="HalfModal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HalfModal01ViewController" id="0mz-fc-wvV" customClass="HalfModal01ViewController" customModule="HalfModal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UeA-eg-qdL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,10 +125,10 @@
             </objects>
             <point key="canvasLocation" x="2091" y="-565"/>
         </scene>
-        <!--Half Modal On Shadow View Controller-->
+        <!--Half Modal02 View Controller-->
         <scene sceneID="WNB-hg-v3z">
             <objects>
-                <viewController storyboardIdentifier="HalfModalOnShadowViewController" id="LVv-JZ-Wej" customClass="HalfModalOnShadowViewController" customModule="HalfModal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HalfModal02ViewController" id="LVv-JZ-Wej" customClass="HalfModal02ViewController" customModule="HalfModal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sXJ-Sp-lkK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
