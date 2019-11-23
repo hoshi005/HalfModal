@@ -17,6 +17,7 @@
 		3797FA6F2387674400F3EFFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3797FA6D2387674400F3EFFE /* LaunchScreen.storyboard */; };
 		3797FA772387680800F3EFFE /* HalfModal01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3797FA762387680800F3EFFE /* HalfModal01ViewController.swift */; };
 		EF1D95E12388C5A8008E67B1 /* HalfModal03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D95E02388C5A8008E67B1 /* HalfModal03ViewController.swift */; };
+		EF1D95E32388D5F2008E67B1 /* HalfModal03NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D95E22388D5F2008E67B1 /* HalfModal03NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3797FA702387674400F3EFFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3797FA762387680800F3EFFE /* HalfModal01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModal01ViewController.swift; sourceTree = "<group>"; };
 		EF1D95E02388C5A8008E67B1 /* HalfModal03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModal03ViewController.swift; sourceTree = "<group>"; };
+		EF1D95E22388D5F2008E67B1 /* HalfModal03NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModal03NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				3797FA762387680800F3EFFE /* HalfModal01ViewController.swift */,
 				378A17AC2387B13C002BEDD5 /* HalfModal02ViewController.swift */,
 				EF1D95E02388C5A8008E67B1 /* HalfModal03ViewController.swift */,
+				EF1D95E22388D5F2008E67B1 /* HalfModal03NavigationController.swift */,
 				3797FA682387674300F3EFFE /* Main.storyboard */,
 				3797FA6B2387674400F3EFFE /* Assets.xcassets */,
 				3797FA6D2387674400F3EFFE /* LaunchScreen.storyboard */,
@@ -154,6 +157,7 @@
 				3797FA672387674300F3EFFE /* ViewController.swift in Sources */,
 				378A17AD2387B13C002BEDD5 /* HalfModal02ViewController.swift in Sources */,
 				3797FA632387674300F3EFFE /* AppDelegate.swift in Sources */,
+				EF1D95E32388D5F2008E67B1 /* HalfModal03NavigationController.swift in Sources */,
 				3797FA652387674300F3EFFE /* SceneDelegate.swift in Sources */,
 				EF1D95E12388C5A8008E67B1 /* HalfModal03ViewController.swift in Sources */,
 				3797FA772387680800F3EFFE /* HalfModal01ViewController.swift in Sources */,
