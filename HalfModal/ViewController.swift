@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tap03(_ sender: AnyObject) {
-        if let vc = storyboard?.instantiateViewController(identifier: "HalfModal03ViewController") {
+        if let vc = storyboard?.instantiateViewController(identifier: "HalfModal03NavigationController") {
             vc.modalPresentationStyle = .custom
             self.present(vc, animated: true) {
                 print("presented !!")
